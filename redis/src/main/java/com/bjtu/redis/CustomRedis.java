@@ -122,6 +122,9 @@ public class CustomRedis {
     }
 
 
+    /**
+    *读取json文件
+    **/
     public String readfile(String fileName) {
         String json_str = "";
 
@@ -146,6 +149,9 @@ public class CustomRedis {
         }
     }
 
+    /**
+    *初始化数据
+    **/
     public void init(){
         //清空数据
         actions.clear();
